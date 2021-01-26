@@ -1,5 +1,6 @@
-function Cat (name) {
+function Cat (name, gender) {
     this.name = name;
+    this.gender = gender;
 };
 
-module.export = Cat;
+module.exports = Cat;
